@@ -1,0 +1,99 @@
+/* CSS PRIMEIRA-TELA-USUARIO-COM-CADASTRO */
+
+body {
+    background-color: #888888;
+    font-family: Arial;
+    height: 100%;
+    margin: 0 auto;
+}
+
+main { 
+    margin: 0 auto;
+    width: 100%;
+    height:100%;
+    position: relative;
+}
+
+.menu-principal {
+    width: 100%;
+    background-color: black;
+    height: 65px;
+}
+
+.logo-pequeno {
+    padding-left: 30px;
+    padding-top: 7px;
+    float: left;
+    width: 35%;
+}
+
+.home > a{
+    color: white;
+    font-size: 16px;
+    padding-left: 0px;
+    padding-top: 25px;
+    float: left;
+    width: 22.3%;
+}
+
+.contato > a{
+    color: white;
+    padding-left: 0px;
+    padding-top: 25px;
+    float: left;
+    width: 27.5%;
+}
+
+.minha-conta-foto {
+    padding-right: 0px;
+    padding-top: 8px;
+    float: left;
+    width: 0%;
+}
+
+.minha-conta > a{
+    color: white;
+    padding-right: 30px;
+    padding-top: 25px;
+    float: right;
+}
+
+/*////////////////////////////////*/
+
+.botoes {
+    width:100%;
+    padding-top: 0px;
+    background-color: transparent;
+}
+
+.botao-gerar-provas > button {
+    background-color: black;
+    opacity: 0.6;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    padding-left: 40px;
+    padding-right: 40px;
+    color: #F0F8FF;
+    border: 3px solid #363636;
+    outline: 0;
+    font-size: 23px;
+    margin-left: 300px;
+    margin-top: 230px;
+    float: left;
+}
+
+.botao-forum > button {
+    background-color: black;
+    opacity: 0.6;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    padding-left: 88px;
+    padding-right: 88px;
+    color: #F0F8FF;
+    border: 3px solid #363636;
+    outline: 0;
+    font-size: 23px;
+    margin-right: 300px;
+    margin-top: 230px;
+    float: right;
+}
