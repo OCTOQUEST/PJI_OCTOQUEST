@@ -14,4 +14,4 @@ $tipo_insti = filter_input(INPUT_POST, 'tipo_insti', FILTER_SANITIZE_STRING);
 $result_usuario = "INSERT INTO usuario (nome, email, nome_usuario, telefone, senha, instituicao, tipo_insti) VALUES ('$nome', '$email', '$nome_usuario', '$telefone', '$senha', '$instituicao', '$tipo_insti')";
 $resultado_usuario = mysqli_query($conn, $result_usuario);
 
-header('Location: login.html');
+header('Location: login.php');
