@@ -83,7 +83,7 @@ textarea:focus{
     font-size: 20px;
     color: #295a8f;
     position:absolute;
-    left:285px;
+    left:21%;
     margin-top:10px;
    
 }
@@ -96,7 +96,7 @@ textarea:focus{
     font-size: 20px;
     color:#295a8f;
     position: absolute;
-    left: 759px;
+    left: 56%;
     margin-top: 10px;
 
 
@@ -112,6 +112,6 @@ textarea:focus{
     color: white;
     position:absolute;
     margin-top: auto;
-    left:1150px;
-    top:600px;
+    left:85%;
+    top:90%;
 }

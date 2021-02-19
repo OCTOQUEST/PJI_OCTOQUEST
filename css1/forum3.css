@@ -139,7 +139,6 @@ main {
     outline: none !important;
     box-shadow: 0 0 10px #295a8f;
 }
-
 .botao{
     border-radius: 10px;
     border-color: rgb(3, 32, 52);
@@ -150,7 +149,7 @@ main {
     font-size: 20px;
     color: #295a8f;
     position:absolute;
-    left:285px;
+    left:21%;
     margin-top:10px;
    
 }
@@ -163,21 +162,22 @@ main {
     font-size: 20px;
     color:#295a8f;
     position: absolute;
-    left: 759px;
+    left: 56%;
     margin-top: 10px;
 
-}
 
+
+}
 .card-group > button {
     border-radius: 10px;
-    padding: 12px;
     border-color: rgb(3, 32, 52);
+    padding: 12px;
     background-color: rgb(3, 32, 52);
     width: 175px;
     font-size: 20px;
     color: white;
     position:absolute;
     margin-top: auto;
-    left:1150px;
-    top:1000px;
+    left:85%;
+    top:150%;
 }
