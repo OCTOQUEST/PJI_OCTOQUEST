@@ -27,7 +27,7 @@ echo $_SESSION['usuario'];
         <main>
             <div class="div-em-cima">
                 <div class="logo-pequeno">
-                    <a href="">
+                    <a href="tela-inicial-do-sistema.html">
                         <img src="img/logo pequeno pequeno.png" alt="" />
                     </a>
                 </div>
@@ -57,10 +57,12 @@ echo $_SESSION['usuario'];
     </header>
     <div class="botoes">
         <div class="botao-gerar-provas">
-            <button href="" style="text-decoration:none">GERAR PROVAS</button>
+        <button > <a href="tela-disciplinas.html" style="text-decoration:none">GERAR PROVA</a> 
+        </button>
         </div>
         <div class="botao-forum">
-            <button href="" style="text-decoration:none">FÓRUM</button>
+
+        <button > <a href="fórum1.php" style="text-decoration:none">FÓRUM</a> </button>
         </div>
     </div>
 </body>

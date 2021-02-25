@@ -22,7 +22,7 @@
         <main>
             <div class="div-em-cima">
                 <div class="logo-pequeno">
-                    <a href="">
+                    <a href="tela-inicial-do-sistema.html">
                         <img src="img/logo pequeno pequeno.png" alt="" />
                     </a>
                 </div>
@@ -65,7 +65,7 @@
     </form>
 
     <div class="para-cadastro">
-        <a href="cadastro.html" style="text-decoration:none">Não tem uma conta no Octoquest? <u>Cadastre-se.</u></a>
+        <a href="cadastro.php" style="text-decoration:none">Não tem uma conta no Octoquest? <u>Cadastre-se.</u></a>
     </div>
 
 </body>

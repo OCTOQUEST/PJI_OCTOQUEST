@@ -68,7 +68,7 @@ main {
 /*///////////////////////////////////////////////////////////////////////////////////*/
 
 .card-1 {
-    background-color: transparent;
+    background-color: #800080;
     width: 100%;
     height: 110px;
 }
@@ -102,7 +102,7 @@ main {
 }
 
 .icone-snp {
-    padding-left: 27%;
+    padding-left: 28%;
     padding-top: 2.2%;
     float: left;
 }
@@ -127,108 +127,5 @@ main {
     padding-left: 2%;
     margin-left: 7%;
     margin-top: 2%;
-    margin-bottom: 4%;
     border: 3px solid #BDBCBC;
-}
-
-/*///////////////////////////////////////////////////////////////////////////////////*/
-
-/*mexe nas características do card invisível*/
-.card-por-trás {
-    background-color: transparent;
-    width: 86%;
-    margin: auto;
-}
-
-.num-questao > a {
-    font-size: 26px;
-    color: black;
-}
-
-.segundo-card {
-    display: flex;
-    justify-content: space-between;
-}
-
-/*mexe nas características do card azul claro*/
-.card-da-questao {
-    background-color: white;
-    padding-left: 3%;
-    padding-right: 3%;
-    padding-top: 2%;
-    padding-bottom: 2%;
-    margin-top: 2px;
-    width: 88%;
-    border-radius: 7px;
-    border: 3px solid #7E7E7E;
-    float: left;
-}
-
-.card-direita {
-    padding-top: 2%;
-}
-
-
-/*mexe no nome dos temas dos campos de inserção*/
-.questao {
-    color: #000000;
-    font-size: 20px;
-}
-
-.botao-trocar {
-    margin-top: 1.5%;
-    margin-bottom: 4%;
-}
-
-.botao-trocar > a {
-    background-color: white;
-    color: #003272;
-    border-radius: 7px;
-    padding: 5px;
-    border: 3px solid #E3E3E3;
-    outline: 0;
-    font-size: 18px;
-}
-
-/*///////////////////////////////////////////////////////////////////////////////////*/
-
-/*mexe no botão GERAR ARQUIVO*/
-.botao-ger-arq > button {
-    background-color: #032034;
-    color: #FFFFFF;
-    border-radius: 10px;
-    padding: 0.85%;
-    margin-top: 4%;
-    margin-left: 62%;
-    margin-bottom: 2%;
-    border: 0px;
-    outline: 0;
-    font-size: 20px;
-    float: left;
-    width: 15%;
-}
-
-/*mexe no botão GERAR ARQUIVO*/
-.botao-imp > button {
-    background-color: #032034;
-    color: #FFFFFF;
-    border-radius: 10px;
-    padding-top: 0.5%;
-    padding-left: 0.85%;
-    padding-right: 0.85%;
-    padding-bottom: 0.2%;
-    margin-top: 4%;
-    margin-right: 7%;
-    margin-bottom: 2%;
-    border: 0px;
-    outline: 0;
-    font-size: 20px;
-    float: right;
-    width: 15%;
-}
-
-.imprimir {
-    float: right;
-    padding-right: 19px;
-    padding-top: 4px;
 }

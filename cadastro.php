@@ -25,7 +25,7 @@
         <main>
             <div class="div-em-cima">
                 <div class="logo-pequeno">
-                    <a href="">
+                    <a href="tela-inicial-do-sistema.html">
                         <img src="img/logo pequeno pequeno.png" alt="" />
                     </a>
                 </div>
@@ -55,7 +55,9 @@
 
             <div class="card-group">
                 <label>Telefone</label>
-                <input type="tel" name="telefone" placeholder="Insira seu telefone" required>
+                <input type="tel" name="telefone" placeholder="Insira seu telefone" required
+                data-mask="(00) 0000-0000"
+                id = "telefone">
             </div>
 
             <div class="card-group">
@@ -89,8 +91,25 @@
     </form>
 
     <div class="para-login">
-        <a href="login.html" style="text-decoration:none">Possui uma conta no Octoquest? <u>Login.</u></a>
+        <a href="login.php" style="text-decoration:none">Possui uma conta no Octoquest? <u>Login.</u></a>
     </div>
+
+    <script
+  src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
+  integrity="sha256-4+XzXVhsDmqanXGHaHvgh1gMQKX40OUvDEBTu8JcmNs="
+  crossorigin="anonymous"></script>
+
+  <script
+
+src="js/dist/jquery.mask.js">
+
+  </script>
+  
+<script>
+$(document).ready(function(){
+    $('#telefone').mask('(00) 0000-0000#');
+});
+</script>
 
 </body>
 
