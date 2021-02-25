@@ -1,5 +1,3 @@
-<!-- //////////////////////////////////////////////////////// -->
-<!-- PARTE PHP QUE CADASTRA O USUARIO -->
 <?php
 include_once("conexao.php");
 
