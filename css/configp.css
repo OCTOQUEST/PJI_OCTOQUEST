@@ -1,0 +1,124 @@
+body {
+    background-color: #888888;
+    font-family: Arial;
+    height: 100%;
+    margin: 0 auto;
+}
+
+main { 
+    margin: 0 auto;
+    width: 100%;
+    height:100%;
+    position: relative;
+}
+.menu-principal {
+    width: 100%;
+    background-color: black;
+    height: 65px;
+}
+
+.logo-pequeno {
+    padding-left: 30px;
+    padding-top: 7px;
+    float: left;
+    width: 85%;
+}
+
+.minha-conta-foto {
+    padding-right: 0px;
+    padding-top: 8px;
+    float: left;
+    width: 0%;
+}
+
+.minha-conta > a{
+    color: white;
+    padding-right: 30px;
+    padding-top: 25px;
+    float: right;
+}
+.h2 {
+    font-size: 300%;
+    color: rgb(1,50,87);
+    font-family: Arial;
+    font-weight: bold;
+}
+.titulo {
+    text-align: center;
+}
+.h1 {
+    font-size: 150%;
+    color: rgb(1,50,87);
+    font-family: Arial;
+    font-weight: bold;
+    text-decoration: underline;
+}
+.dp {
+    margin-left: 31%;
+}
+.card{
+
+padding-top: 20px;
+padding-bottom: 20px;
+margin-left: 30%;
+width: 55%
+}
+
+.card-top {
+text-align: center;
+}
+
+.card-group {
+margin-bottom: 15px;
+}
+
+.card-group > label {
+color: #141313;
+display: block;
+}
+.card-group > input {
+    border-radius: 15px;
+    outline: 0;
+    width: 75%;
+    height: 35px;
+    padding-left: 17px;
+    border: 0px;
+    margin-top: 2%;
+}
+.h3 {
+    font-size: 150%;
+    color: rgb(1,50,87);
+    font-family: Arial;
+    font-weight: bold;
+    text-decoration: underline;
+}
+.di {
+    margin-left: 31%;
+    margin-top: 15%;
+}
+.botao > button{
+    border-radius: 10px;
+    border-color: rgb(3, 32, 52);
+    padding: 12px;
+    background-color: rgb(3, 32, 52);
+    width: 175px;
+    font-size: 20px;
+    color: white;
+    position:absolute;
+    margin-top: 3%;
+    left:36%;
+    
+   
+}
+.botaodois > button{
+    border-radius: 10px;
+    border-color: rgb(3, 32, 52);
+    padding: 12px;
+    background-color: rgb(3, 32, 52);
+    width: 175px;
+    font-size: 20px;
+    color: white;
+    position:absolute;
+    margin-top: 3%;
+    left: 52%;
+}
