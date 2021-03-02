@@ -1,6 +1,5 @@
-<?php 
+<?php
 session_start();
-echo $_SESSION['usuario'];
 ?>
 
 <!DOCTYPE html>
@@ -27,7 +26,7 @@ echo $_SESSION['usuario'];
         <main>
             <div class="div-em-cima">
                 <div class="logo-pequeno">
-                    <a href="tela-inicial-do-sistema.html">
+                    <a href="">
                         <img src="img/logo pequeno pequeno.png" alt="" />
                     </a>
                 </div>
@@ -37,17 +36,17 @@ echo $_SESSION['usuario'];
                     </a>
                 </div>
                 <div class="contato">
-                    <a href="" style="text-decoration:none">
+                    <a href="qs.html" style="text-decoration:none">
                         CONTATO
                     </a>
                 </div>
                 <div class="minha-conta-foto">
-                    <a href="">
+                    <a href="tela-de-perfil-provas.html">
                         <img src="img/coisinho.png" alt="" />
                     </a>
                 </div>
                 <div class="minha-conta">
-                    <a href="" style="text-decoration: none">
+                    <a href="tela-de-perfil-provas.html" style="text-decoration: none">
                         Minha conta
                     </a>
                 </div>
@@ -57,12 +56,18 @@ echo $_SESSION['usuario'];
     </header>
     <div class="botoes">
         <div class="botao-gerar-provas">
-        <button > <a href="tela-disciplinas.html" style="text-decoration:none">GERAR PROVA</a> 
-        </button>
+            <button>
+                <a href="tela-disciplinas.html" style="text-decoration:none">
+                    <font color="white">GERAR PROVA</font>
+                </a>
+            </button>
         </div>
         <div class="botao-forum">
-
-        <button > <a href="fórum1.php" style="text-decoration:none">FÓRUM</a> </button>
+            <button>
+                <a href="fórum1.php" style="text-decoration:none">
+                    <font color="white">FÓRUM</font>
+                </a>
+            </button>
         </div>
     </div>
 </body>
