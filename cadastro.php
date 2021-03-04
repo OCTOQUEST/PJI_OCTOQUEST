@@ -32,7 +32,7 @@
             </div>
         </main>
     </header>
-    <form class="form" action="cadastrar.php" method="POST">
+    <form class="form" id= "form" action="cadastrar.php" method="POST">
         <div class="card">
             <div class="card-top">
                 <h2 class="title">Insira seus dados pessoais:</h2>
@@ -62,12 +62,12 @@
 
             <div class="card-group">
                 <label>Senha</label>
-                <input type="password" name="senha" placeholder="Insira sua senha" required>
+                <input type="password" name="senha" id="senha" placeholder="Insira sua senha" required>
             </div>
 
             <div class="card-group">
                 <label>Confirmação de senha</label>
-                <input type="password" name="confsenha" placeholder="Confirme sua senha" required>
+                <input type="password" name="confsenha" id="confsenha" placeholder="Confirme sua senha" required>
             </div>
 
             <div class="card-top">
@@ -85,7 +85,7 @@
             </div>
 
             <div class="card-group1">
-                <button type="submit">Inscrever-se</button>
+                <button type="" id='btnenviar'>Inscrever-se</button>
             </div>
         </div>
     </form>
@@ -108,6 +108,17 @@ src="js/dist/jquery.mask.js">
 <script>
 $(document).ready(function(){
     $('#telefone').mask('(00) 0000-0000#');
+    $('#telefone').mask('(00) 0000-0000#');
+    $('#btnenviar').click(function(){
+        var senha = $('#senha').val();
+        var confsenha = $('#confsenha').val();
+
+        if (senha == confsenha){
+            $('#form').submit();
+
+        }else {
+            alert('coloque senhas iguais');}
+    })
 });
 </script>
 
