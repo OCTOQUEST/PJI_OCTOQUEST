@@ -1,0 +1,74 @@
+body {
+    background-color: #888888;
+    font-family: Arial;
+    height: 100%;
+    margin: 0 auto;
+}
+
+main { 
+    margin: 0 auto;
+    width: 100%;
+    height:100%;
+    position: relative;
+}
+.menu-principal {
+    width: 100%;
+    background-color: black;
+    height: 65px;
+}
+
+.logo-pequeno {
+    padding-left: 30px;
+    padding-top: 7px;
+    float: left;
+    width: 85%;
+}
+.minha-conta-foto {
+    padding-right: 0px;
+    padding-top: 8px;
+    float: left;
+    width: 0%;
+}
+
+.minha-conta > a{
+    color: white;
+    padding-right: 30px;
+    padding-top: 25px;
+    float: right;
+}
+.PROVAS {
+    width: 100%;
+    background-color: rgb(97,165,194);
+    height: 150px;
+}
+.red{
+    float: left;
+    margin-left: 35%;
+    margin-top: 2%;
+}
+.nome {
+    color: white;
+    font-size: 53px;
+    padding-top: 3.2%;
+    text-align: center;
+    margin-right: 35%;
+}
+.card2{
+    margin-left: 15%;
+    margin-top: 5%;
+}
+.card-botao > button {
+    background-color: #032034;
+    border-radius: 10px;
+    padding: 12px;
+    margin-top: 40px;
+    margin-bottom: 20px;
+    border: 0px;
+    outline: 0;
+    width: 15%;
+    font-size: 20px;
+    float: right;
+}
+a {
+    color: white;
+}
