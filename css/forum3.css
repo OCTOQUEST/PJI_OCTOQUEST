@@ -139,6 +139,16 @@ main {
     outline: none !important;
     box-shadow: 0 0 10px #295a8f;
 }
+.ts{
+    font-size: 150%;
+    text-align: center;
+    font-family: Arial;
+}
+.select{
+    font-size: 111%;
+    text-align: center;
+    font-family: Arial;
+}
 .botao{
     border-radius: 10px;
     border-color: rgb(3, 32, 52);
