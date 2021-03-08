@@ -49,7 +49,8 @@
         <p class="h2"> Sugira uma questão:</p>
     </div>
     <div class="card">
-
+        
+        <textarea class= "disciplina" cols = "65" rows = "2" placeholder="Insira a disciplina"></textarea>
         <textarea class="questao" cols="65" rows="10"name='descricao' placeholder="Insira a questão"></textarea>
         <textarea class="a" cols= "65" rows="3" name='a' placeholder="A."></textarea>
         <textarea class="b" cols= "65" rows="3" name='b' placeholder="B."></textarea>
@@ -82,3 +83,4 @@
 </body>
 
 </html>
+
