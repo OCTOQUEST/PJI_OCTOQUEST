@@ -8,11 +8,12 @@ $resposta_b = filter_input(INPUT_POST, 'b', FILTER_SANITIZE_STRING);
 $resposta_c = filter_input(INPUT_POST, 'c', FILTER_SANITIZE_STRING);
 $resposta_d = filter_input(INPUT_POST, 'd', FILTER_SANITIZE_STRING);
 $resposta_e = filter_input(INPUT_POST, 'e', FILTER_SANITIZE_STRING);
+$titulo_questao = filter_input(INPUT_POST, 'titulo_questao', FILTER_SANITIZE_STRING);
 
 $resposta = $_POST['resposta'];
 $cadastro = $_SESSION['cadastro'];
 
-$result_usuario = "INSERT INTO questao(descricao, tipo_questao, aprovado, cadastro) VALUES ('$descricao','Múltipla-Escolha', '0','$cadastro')";
+$result_usuario = "INSERT INTO questao(descricao, titulo_questao, tipo_questao, aprovado, cadastro) VALUES ('$descricao', '$titulo_questao','Múltipla-Escolha', '0','$cadastro')";
 $resultado_usuario = mysqli_query($conn, $result_usuario);
 
 $cod_questao = mysqli_insert_id($conn);
