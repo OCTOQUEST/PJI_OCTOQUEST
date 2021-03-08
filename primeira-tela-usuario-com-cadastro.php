@@ -32,7 +32,7 @@ session_start();
                 </div>
                 <div class="home">
                     <a href="tela-inicial-do-sistema.html" style="text-decoration:none">
-                        HOME
+                        SAIR
                     </a>
                 </div>
                 <div class="contato">
