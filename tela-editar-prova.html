@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale-1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie-edge">
+    <title>Octoquest</title>
+
+    <link rel="stylesheet" href="css/style8.css">
+</head>
+
+<style>
+    body {
+        background-image: url("img/bg-editar-prova.png");
+        background-size: cover;
+        background-attachment: fixed;
+        background-position: center;
+        background-repeat: no-repeat;
+    }
+</style>
+
+<body>
+    <header class="menu-principal">
+        <main>
+            <div class="div-em-cima">
+                <div class="logo-pequeno">
+                    <a href="primeira-tela-usuario-com-cadastro.php">
+                        <img src="img/logo pequeno pequeno.png" alt="" />
+                    </a>
+                </div>
+                <div class="minha-conta-foto">
+                    <a href="tela-de-perfil-provas.html">
+                        <img src="img/coisinho.png" alt="" />
+                    </a>
+                </div>
+                <div class="minha-conta">
+                    <a href="tela-de-perfil-provas.html" style="text-decoration: none">
+                        Minha conta
+                    </a>
+                </div>
+            </div>
+        </main>
+    </header>
+
+    <form class="form" action="" method="POST">
+        <div class="card-por-trás">
+            <div class="card-branco">
+                <div class="titulo-prova">
+                    <input type="text" name="tit-prova" placeholder="Insira o título da prova" required>
+                </div>
+                <div class="frase">
+                    Insira a porcentagem de cada tipo de questão ou selecione o modo randômico:
+                </div>
+                <div class="card">
+                    <label> <strong>Múltipla Escolha</strong> </label>
+                    <input type="text" name="m-e" required>
+                </div>
+                <div class="card">
+                    <label> <strong>Dissertativa</strong> </label>
+                    <input type="text" name="m-e" required>
+                </div>
+                <div class="card">
+                    <label> <strong>Modo Randômico</strong> </label>
+                    <input type="text" name="m-e" required>
+                </div>
+            </div>
+
+            <div class="card-botao">
+                <button>
+                    <a href="tela-de-prova.html" style="text-decoration:none">
+                        CONTINUAR
+                    </a>
+                </button>
+            </div>
+        </div>
+    </form>
+</body>
+
+</html>
