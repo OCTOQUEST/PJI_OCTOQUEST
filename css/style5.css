@@ -1,0 +1,265 @@
+/* CSS DA TELA DE DISCIPLINAS COM CADASTRO E SEM CADASTRO*/
+
+/*mexe no tamanho na tela inteira do navegador*/
+body {
+    background-color: #888888;
+    font-family: Arial;
+    height: 100%;
+    margin: 0 auto;
+}
+
+/*mexe em toda a tela do navegador*/
+main { 
+    margin: 0 auto;
+    width: 100%;
+    height:100%;
+    position: relative;
+}
+
+/*///////////////////////////////////////////////////////////////////////////////////*/
+
+/*div em cima / menu na parte de cima*/
+.menu-principal {
+    width: 100%;
+    background-color: black;
+    height: 65px;
+}
+
+/*foto da logo no canto esquerdo superior*/
+.logo-pequeno {
+    padding-left: 30px;
+    padding-top: 7px;
+    float: left;
+    width: 85%;
+}
+
+/*mexe no icone do MINHA CONTA*/
+.minha-conta-foto {
+    padding-right: 0px;
+    padding-top: 8px;
+    float: left;
+    width: 0%;
+}
+
+/*mexe no MINHA CONTA*/
+.minha-conta > a{
+    color: white;
+    padding-right: 30px;
+    padding-top: 25px;
+    float: right;
+}
+
+/*///////////////////////////////////////////////////////////////////////////////////*/
+
+/*mexe na div DISCIPLINAS*/
+.disciplinas {
+    padding-top: 50px;
+    width: 100%;
+    text-align: center;
+}
+
+/*///////////////////////////////////////////////////////////////////////////////////*/
+
+/*mexe com a frase Selecione uma disciplina:*/
+.selecione {
+    padding-top: 60px;
+}
+.selecione > a {
+    padding-left: 80px;
+    font-size: 27px;
+}
+
+/*mexe no risco cinza*/
+.risco-horizontal {
+    text-align: center;
+}
+
+/*///////////////////////////////////////////////////////////////////////////////////*/
+
+.card-1 {
+    width:100%;
+    padding-top: 30px;
+    background-color: transparent;
+}
+
+.card-2 {
+    width:100%;
+    padding-top: 30px;
+    background-color: transparent;
+}
+
+.card-3 {
+    width:100%;
+    padding-top: 30px;
+    background-color: transparent;
+}
+
+.card-4 {
+    width:100%;
+    padding-top: 30px;
+    background-color: transparent;
+}
+
+/*//////////*/
+
+
+.caixinha1 {
+    box-shadow: 1px 4px 7px #013257;
+    background-color: #013257;
+    padding-top: 45px;
+    padding-bottom: 10px;
+    border-radius: 7px;
+    width: 20%;
+    margin-left: 160px;
+    margin-top: 60px;
+    float: left;
+}
+
+.caixinha2 {
+    box-shadow: 1px 4px 7px #013257;
+    background-color: #013257;
+    padding-top: 45px;
+    padding-bottom: 10px;
+    border-radius: 7px;
+    width: 20%;
+    margin-left: 113px;
+    margin-top: 60px;
+    float: left;
+}
+
+.caixinha3 {
+    box-shadow: 1px 4px 7px #013257;
+    background-color: #013257;
+    padding-top: 45px;
+    padding-bottom: 10px;
+    border-radius: 7px;
+    width: 20%;
+    margin-right: 160px;
+    margin-top: 60px;
+    float: right;
+}
+
+.caixinha4 {
+    box-shadow: 1px 4px 7px #01497C;
+    background-color: #01497C;
+    padding-top: 45px;
+    padding-bottom: 10px;
+    border-radius: 7px;
+    width: 20%;
+    margin-left: 160px;
+    margin-top: 80px;
+    float: left;
+}
+
+.caixinha5 {
+    box-shadow: 1px 4px 7px #01497C;
+    background-color: #01497C;
+    padding-top: 45px;
+    padding-bottom: 10px;
+    border-radius: 7px;
+    width: 20%;
+    margin-left: 113px;
+    margin-top: 80px;
+    float: left;
+}
+
+.caixinha6 {
+    box-shadow: 1px 4px 7px #01497C;
+    background-color: #01497C;
+    padding-top: 45px;
+    padding-bottom: 10px;
+    border-radius: 7px;
+    width: 20%;
+    margin-right: 160px;
+    margin-top: 80px;
+    float: right;
+}
+
+.caixinha7 {
+    box-shadow: 1px 4px 7px #2A6F97;
+    background-color: #2A6F97;
+    padding-top: 45px;
+    padding-bottom: 10px;
+    border-radius: 7px;
+    width: 20%;
+    margin-left: 160px;
+    margin-top: 80px;
+    float: left;
+}
+
+.caixinha8 {
+    box-shadow: 1px 4px 7px #2A6F97;
+    background-color: #2A6F97;
+    padding-top: 45px;
+    padding-bottom: 10px;
+    border-radius: 7px;
+    width: 20%;
+    margin-left: 113px;
+    margin-top: 80px;
+    float: left;
+}
+
+.caixinha9 {
+    box-shadow: 1px 4px 7px #2A6F97;
+    background-color: #2A6F97;
+    padding-top: 45px;
+    padding-bottom: 10px;
+    border-radius: 7px;
+    width: 20%;
+    margin-right: 160px;
+    margin-top: 80px;
+    float: right;
+}
+
+.caixinha10 {
+    box-shadow: 1px 4px 7px #61A5C2;
+    background-color: #61A5C2;
+    padding-top: 45px;
+    padding-bottom: 10px;
+    border-radius: 7px;
+    width: 20%;
+    margin-left: 160px;
+    margin-top: 80px;
+    margin-bottom: 100px;
+    float: left;
+}
+
+.caixinha11 {
+    box-shadow: 1px 4px 7px #61A5C2;
+    background-color: #61A5C2;
+    padding-top: 45px;
+    padding-bottom: 10px;
+    border-radius: 7px;
+    width: 20%;
+    margin-left: 113px;
+    margin-top: 80px;
+    margin-bottom: 100px;
+    float: left;
+}
+
+.caixinha12 {
+    box-shadow: 1px 4px 7px #61A5C2;
+    background-color: #61A5C2;
+    padding-top: 45px;
+    padding-bottom: 10px;
+    border-radius: 7px;
+    width: 20%;
+    margin-right: 160px;
+    margin-top: 80px;
+    margin-bottom: 100px;
+    float: right;
+}
+
+/*//////////*/
+
+.titulo-caixinhas > a {
+    color: #F0F8FF;
+    font-size: 23px;
+    padding-left: 15px;
+}
+
+.icone-caixinhas {
+    padding-top: 20px;
+    padding-right: 15px;
+    float: right;
+}

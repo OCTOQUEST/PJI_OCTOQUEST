@@ -1,0 +1,221 @@
+/* CSS DA TELA DE PERFIL -MINHAS QUESTÕES - FAVORITADAS*/
+
+/*mexe no tamanho na tela inteira do navegador*/
+body {
+    font-family: Arial;
+    height: 100%;
+    margin: 0 auto;
+}
+
+/*mexe em toda a tela do navegador*/
+main { 
+    margin: 0 auto;
+    width: 100%;
+    height:100%;
+    position: relative;
+}
+
+/*///////////////////////////////////////////////////////////////////////////////////*/
+
+/*div em cima / menu na parte de cima*/
+.menu-principal {
+    width: 100%;
+    background-color: black;
+    background-size: cover;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    height: 65px;
+}
+
+/*foto da logo no canto esquerdo superior*/
+.logo-pequeno {
+    padding-left: 30px;
+    padding-top: 7px;
+    float: left;
+    width: 85%;
+}
+
+/*///////////////////////////////////////////////////////////////////////////////////*/
+
+/*div do titulo da matéria*/
+.bg-imagem-perfil {
+    width: 100%;
+    background-image: url("../img/bg-em-cima-perfil.jpg");  
+    background-repeat: no-repeat;
+    height: 200px;
+    padding-bottom: 310px;
+}
+
+.card-azul-claro {
+    background-color: #DFE7F2;
+    width: 100%;
+    height: 268px;
+    position: absolute;
+    top: 40%;
+}
+
+.usuario {
+    position: absolute;
+    top: -100px;
+    left: 43.5%;
+    padding-bottom: 20px;
+    width: 172px;
+    height: 172px;
+    border-radius: 50%; 
+}
+
+.nome-usuario {
+    text-align: center;
+}
+
+.nome-usuario > button {
+    background-color: #FFFDFF;
+    color: #9E9A9A;
+    font-size: 18px;
+    border-radius: 30px;
+    width: 30%;
+    outline: 0;
+    height: 50px;
+    margin-top: 6.5%;
+    border: 3px solid #E3E3E3;
+    text-align: center;
+}
+
+.risco {
+    padding-top: 2%;
+    text-align: center;
+}
+
+.card-1 {
+    background-color: transparent;
+    width: 100%;
+}
+
+.icone-vp {
+    padding-left: 10%;
+    padding-top: 2%;
+    width: 4%;
+    float: left;
+}
+
+.vp > a {
+    color: black;
+    font-size: 20px;
+    padding-top: 2.6%;
+    width: 27.4%;
+    float: left;
+}
+
+.icone-mq {
+    padding-top: 2%;
+    width: 4%;
+    float: left;
+}
+
+.mq > a{
+    color: black;
+    font-size: 20px;
+    padding-top: 2.6%;
+    width: 24.5%;
+    float: left;
+}
+
+.icone-conf {
+    padding-left: 5%;
+    padding-top: 2%;
+    float: left;
+}
+
+.conf > a{
+    color: black;
+    font-size: 20px;
+    padding-right: 10%;
+    padding-top: 2.6%;
+    float: right;
+}
+
+.risco-p {
+    padding-top: 2%;
+    text-align: center;
+}
+
+/*///////////////////////////////////////////////////////////////////////////////////*/
+
+.barra-de-escolha {
+    padding-top: 0%;
+    background-color: transparent;
+    width: 100%;
+}
+
+.icone-mq-editar {
+    padding-left: 45%;
+    float: left;
+}
+
+.icone-favoritar-grande {
+    padding-right: 45%;
+    float: right;
+}
+
+/*///////////////////////////////////////////////////////////////////////////////////*/
+
+.card-azul-mais-claro {
+    background-color: #DFE7F2;
+    width: 1194px;
+    margin-top: 7%;
+    margin-left: 6.1%;
+    margin-bottom: 5%;
+    border-radius: 5px;
+    height: 290px;
+    border: 2.5px solid #9E9E9E;
+}
+
+.fundo-transparente {
+    background-color: transparent;
+    width: 100%;
+}
+
+.icone-foto-cinza {
+    padding-top: 1%;
+    padding-left: 2%;
+    padding-bottom: 1.8%;
+    width: 11%;
+    border-radius: 50%;
+    float: left;
+}
+
+.nome-usuario1 > button {
+    background-color: #FFFDFF;
+    color: black;
+    font-size: 16px;
+    border-radius: 30px;
+    width: 25%;
+    outline: 0;
+    height: 45px;
+    margin-top: 3%;
+    margin-right: 62%;
+    border: 3px solid #E3E3E3;
+    box-shadow: 1px 1px 5px #9E9E9E;
+    text-align: center;
+    float: left;
+}
+
+.questao {
+    padding-left: 2%;
+    width: 96%;
+    font-size: 18px;
+    padding-bottom: 1%;
+    float: left;
+}
+
+.risco-preto {
+    text-align: center;
+    padding-bottom: 1%;
+}
+
+/*///////////////////////////////////////////////////////////////////////////////////*/
+
+.icone-favorito-vermelho {
+    padding-right: 2%;
+    float: right;
+}
