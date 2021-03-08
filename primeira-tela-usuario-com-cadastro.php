@@ -30,7 +30,7 @@ session_start();
                         <img src="img/logo pequeno pequeno.png" alt="" />
                     </a>
                 </div>
-                <div class="home">
+                <div class="sair">
                     <a href="logout.php" style="text-decoration:none">
                         SAIR
                     </a>
