@@ -72,12 +72,9 @@ $dt = mysqli_fetch_array($resultado_usuario);
 
             <div class="card-group">
                 <label>Senha</label>
-                <input type="password" name="senha" placeholder="Alterar senha" required>
+                <input type="password" name="senha" placeholder="insira sua senha" required>
             </div>
 
-            <div class="card-group">
-                <input type="password" name="conf_senha" placeholder="Confirme sua senha" required>
-            </div>
             <div class="d1">
                 <p class="h3"> Dados Institucionais</p>
             </div>
