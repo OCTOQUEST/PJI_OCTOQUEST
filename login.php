@@ -29,19 +29,19 @@
             </div>
         </main>
     </header>
-  
+
 
     <form class="form" action="logar.php" method="POST">
         <div class="card">
             <div class="card-top">
                 <h2 class="title"> Para utilizar nossos serviços, faça login.</h2>
                 <?php
-    session_start();
-    if(isset($_SESSION["erro_login"]))
-    echo "<b class='title'>erro usuário ou senha inválidos</b>"; 
-    unset($_SESSION["erro_login"]);
+                session_start();
+                if (isset($_SESSION["erro_login"]))
+                    echo "<b class='title1'>Erro! E-mail ou senha inválidos.</b>";
+                unset($_SESSION["erro_login"]);
 
-?>
+                ?>
             </div>
 
             <div class="card-group">
@@ -52,10 +52,6 @@
             <div class="card-group">
                 <label>Senha</label>
                 <input type="password" name="senha" placeholder="Insira sua senha" required>
-            </div>
-
-            <div class="card-group">
-                <a href='recuperar.php'>Esqueci minha senha.</a>
             </div>
 
             <div class="card-group1">
