@@ -75,11 +75,20 @@
 
      
         <div class="card-group">
-            <button type="submit">ENVIAR</button>
+            <button type="submit" onclick="funcao()">ENVIAR</button>
         </div>
     </div>
     </div>
     </form>
+
+    <script>
+    function funcao()
+{
+   alert("SUGESTÃO DE QUESTÃO MÚLTIPLA ESCOLHA ENVIADO");
+   
+}
+</script>
+
 </body>
 
 </html>

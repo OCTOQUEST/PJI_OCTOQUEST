@@ -54,12 +54,21 @@
               <a href = "fórum2.php" class = botao >Questão Dissertativa</a>
               <a href = "fórum3.php" class = botaodois >Questão de múltipla-escolha </a>
             
-            <div class="card-group">
-                <button type="submit">ENVIAR</button>
+            <div class="card-group" name = "enviar">
+                <button type="submit" onclick="funcao()">ENVIAR</button>
             </div>
         </div>
        </div>
        </form>
+       <script>
+    function funcao()
+{
+   alert("TEMA DE REDAÇÃO ENVIADO");
+   
+}
+</script>
+
+
      </body>
      
 
