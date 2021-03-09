@@ -99,7 +99,7 @@ main {
     float: left;
 }
 
-.snp {
+.snp > a{
     color: black;
     font-size: 20px;
     padding-right: 7%;
